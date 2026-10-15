@@ -10,9 +10,10 @@ function Card(props) {
         color: '#222',
       }}
     >
-      {' '}
-      <h2>{props.titulo}</h2> <p>{props.descricao}</p>{' '}
+      <h2 style={{ color: '#222', margin: '0 0 8px' }}>{props.titulo}</h2>
+      <p style={{ margin: 0 }}>{props.descricao}</p>
     </div>
   );
 }
+
 export default Card;
